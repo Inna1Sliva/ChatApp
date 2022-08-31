@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#FFFFFF"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="411dp"
+        android:layout_height="61dp"
+        android:background="#3b2382"
+        android:gravity="center|center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/searchUser"
+            android:layout_width="53dp"
+            android:layout_height="39dp"
+            android:paddingLeft="5dp"
+            android:src="@drawable/ic_add_person" />
+
+        <TextView
+            android:layout_width="258dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:gravity="center|right"
+            android:paddingEnd="69dp"
+            android:text="@string/message"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageProfile"
+            android:layout_width="83dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:paddingStart="5dp"
+            android:src="@drawable/profile_image"
+            app:civ_border_color="#FBFBFB"
+            app:civ_border_width="2dp" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerMessage"
+        tools:listitem="@layout/message_list_item"
+        android:layout_width="409dp"
+        android:layout_height="668dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

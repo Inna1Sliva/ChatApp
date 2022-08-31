@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "435368397540",
+    "firebase_url": "https://malevich-studio-976df-default-rtdb.firebaseio.com",
+    "project_id": "malevich-studio-976df",
+    "storage_bucket": "malevich-studio-976df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435368397540:android:5936e573af02d0e71abaf1",
+        "android_client_info": {
+          "package_name": "com.example.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435368397540-mbdtnq4n0fgpap9g44g8u7fbmsgqmknm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_TaVrd2ML7jVh9lCoNSFkapSL4QqOUrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "435368397540-mbdtnq4n0fgpap9g44g8u7fbmsgqmknm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

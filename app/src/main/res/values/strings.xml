@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Application</string>
+    <string name="accaunt">Do you already have an account?</string>
+    <string name="SignIn">Sign In</string>
+    <string name="Password">Password</string>
+    <string name="Email">Email</string>
+    <string name="button_text">Enter</string>
+    <string name="userNmae">William Willis</string>
+    <string name="message">Message</string>
+    <string name="profile">Profile List</string>
+    <string name="userList">User List</string>
+    <string name="seveImage">Seve</string>
+    <string name="temp">Привет, друг! Я теперь в Chat App</string>
+    <string name="size">11</string>
+</resources>
